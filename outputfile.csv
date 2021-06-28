@@ -1,0 +1,5 @@
+profile_id,email,name,created_at,total_exp,highest qualification,company_name,skills
+ac504,aB504@c.x0pa.ai,AC 504,2021-08-30T00:00:00Z,6,BE,MITA,python
+ac504,aB504@c.x0pa.ai,AC 504,2021-08-30T00:00:00Z,6,BE,MITA,python
+Ac505,ac505@C.x0pa.ai,AC 505,2021-06-31T00:00:00Z,,,SideWays,ML
+AD504,ad504@c.x0pa.ai,AD 504,2021-05-15T00:00:00Z,-10.3,ME in Data Science,Edutech,"python,pandas"

@@ -1,0 +1,24 @@
+{
+  "name": "Types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon basic.js",
+    "obj": "nodemon obj.js",
+    "ex": "nodemon ex.js",
+    "xopa": "nodemon xopa2assignment.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "csv-parse": "^4.16.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
+  }
+}
