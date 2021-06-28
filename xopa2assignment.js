@@ -62,16 +62,16 @@ const file1Promise = new Promise((resolve) => {
             res[trash] = fileData1[i]
             
         }
-        // console.log(res);
+       
         
-        var fin = [];
+        var fin = new Set();
         for(var j=0;j<fd2.length;j++){
           // console.log(fd2[j].email);
           // console.log(fd2[j].email.toLowerCase());
           // console.log(fd2[j].email=="")
             if(fd2[j].email.toLowerCase() in res){
                 var mid = Object.assign(res[fd2[j].email.toLowerCase()],fd2[j])
-                 fin.push(mid)
+                 fin.add(mid)
             }
         }
       
